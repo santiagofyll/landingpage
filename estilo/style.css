@@ -147,3 +147,50 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 950px) {
+  .conteudo-principal-imagem {
+      width: 40vw;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .conteudo-secundario-paragrafo {
+      margin: 0 10px;
+      text-align: justify;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cabecalho {
+    background: linear-gradient( to right, #848484, #edeeee);
+      padding: 45.5px 24px 45.5px;
+  }
+
+  .cabecalho-menu-item {
+      color: #2a2c2e;
+      font-weight: bold;
+  }
+
+  .cabecalho-imagem, .conteudo-principal-imagem {
+      display: none;
+  }
+
+  .conteudo-principal {
+      display: initial;
+  }
+
+  .conteudo-principal-escrito-botao {
+      display: block;
+      margin: 0 auto;
+  }
+
+  .conteudo-principal-escrito {
+      margin: 20px 10px 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cabecalho-menu {
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
