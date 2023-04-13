@@ -23,7 +23,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 24px;
+  padding: 10px;
 }
 
 .cabecalho-imagem {
@@ -119,8 +119,7 @@ body {
 }
 
 .conteudo-secundario-titulo {
-  border-top: 0.4px solid #2a2c2e;
-  padding-top: 48px;
+  
   font-family:'Sarala', sans-serif ;
   font-weight: 400;
   font-size: 24px;
@@ -137,17 +136,16 @@ body {
 }
 
 .rodape {
-    padding: 32px;
     border-top: 0.4px solid #2a2c2e;
 }
 
 .rodape-imagem {
-  height: 48px;
+  height: 100px;
   display: block;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 600px) {
   .conteudo-principal-imagem {
       width: 40vw;
   }
@@ -192,5 +190,5 @@ body {
 @media screen and (max-width: 460px) {
   .cabecalho-menu {
       justify-content: space-around;
-      flex-wrap: wrap;
+      flex-wrap: wrap;}
   }
